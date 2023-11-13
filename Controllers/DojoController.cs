@@ -11,25 +11,22 @@ public class DojoController : Controller
         return View();
     }
 
+    // Posterior se debe llamar a la ruta result, con metodo get para el renderizado de la ruta
     [HttpGet]
     [Route("result")]
     public ViewResult Result()
     {
         return View("result");
     }
-
+    // se llama mediante post se envian los datos del formulario a la ruta post del backend
     [HttpPost("result")]
-    public RedirectToActionResult Result(string Name, string Location, string Language, string Comment)
+    public IActionResult Result(string Name, string Location, string Language, string Comment)
     {
         Console.WriteLine($"Name: {Name}");
         Console.WriteLine($"Location: {Location}");
         Console.WriteLine($"Language: {Language}");
         Console.WriteLine($"Comment: {Comment}");
 
-        // ViewData["Name"] = Name;
-        // ViewData["Location"] = Location;
-        // ViewData["Language"] = Language;
-        // ViewData["Comment"] = Comment;
         TempData["Name"] = Name;
         TempData["Location"] = Location;
         TempData["Language"] = Language;
