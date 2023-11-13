@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "clsq1OIcoRL934ErayMn+NA2UF1UG9/DbedtmaIrYx4=",
+  "Source": "DojoSurvey",
+  "BasePath": "_content/DojoSurvey",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DojoSurvey/wwwroot",
+      "Source": "DojoSurvey",
+      "ContentRoot": "/home/nino/Escritorio/CodingDojo/Bootcamp/C#_NET/semana_7/dia_2/DojoSurvey/wwwroot/",
+      "BasePath": "_content/DojoSurvey",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/nino/Escritorio/CodingDojo/Bootcamp/C#_NET/semana_7/dia_2/DojoSurvey/wwwroot/css/style-result.css",
+      "SourceId": "DojoSurvey",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/nino/Escritorio/CodingDojo/Bootcamp/C#_NET/semana_7/dia_2/DojoSurvey/wwwroot/",
+      "BasePath": "_content/DojoSurvey",
+      "RelativePath": "css/style-result.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/style-result.css"
+    },
+    {
+      "Identity": "/home/nino/Escritorio/CodingDojo/Bootcamp/C#_NET/semana_7/dia_2/DojoSurvey/wwwroot/css/style.css",
+      "SourceId": "DojoSurvey",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/nino/Escritorio/CodingDojo/Bootcamp/C#_NET/semana_7/dia_2/DojoSurvey/wwwroot/",
+      "BasePath": "_content/DojoSurvey",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/style.css"
+    }
+  ]
+}

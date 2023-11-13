@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/home/nino/Escritorio/CodingDojo/Bootcamp/C#_NET/semana_7/dia_2/DojoSurvey/wwwroot/css/style-result.css",
+      "PackagePath": "staticwebassets/css/style-result.css"
+    },
+    {
+      "Id": "/home/nino/Escritorio/CodingDojo/Bootcamp/C#_NET/semana_7/dia_2/DojoSurvey/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.DojoSurvey.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.DojoSurvey.props",
+      "PackagePath": "build\\DojoSurvey.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.DojoSurvey.props",
+      "PackagePath": "buildMultiTargeting\\DojoSurvey.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.DojoSurvey.props",
+      "PackagePath": "buildTransitive\\DojoSurvey.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

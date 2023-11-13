@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result page</title>
+    <link rel="stylesheet" href="~/css/style-result.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Submitted Info</h1>
+        <div>
+            <p>Name:</p>
+            <p>@TempData["Name"]</p>
+        </div>
+        <div>
+            <p>Dojo Location:</p>
+            <p>@TempData["Location"]</p>
+        </div>
+        <div>
+            <p>Favorite Language:</p>
+            <p>@TempData["Language"]</p>
+        </div>
+        <div>
+            <p>Comment: </p>
+            <p>@TempData["Comment"]</p>
+        </div>
+    </div>
+</body>
+</html>
